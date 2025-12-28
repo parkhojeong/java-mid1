@@ -15,7 +15,7 @@ public class NetworkClientV1 {
             return "connectError";
         }
 
-        System.out.println("NetworkClientV0.connect" + address);
+        System.out.println("NetworkClientV0.connect: " + address);
         return "success";
     }
 
